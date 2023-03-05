@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Неопознанный енот](https://up.htmlacademy.ru/htmlcss/36/user/2346391).
-* Наставник: `Неизвестно`.
+- Студент: [Иван Скрипник](https://up.htmlacademy.ru/htmlcss/36/user/2346391).
+- Наставник: [Павел Позняк] (https://htmlacademy.ru/profile/id907403).
 
 ---
 
