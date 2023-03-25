@@ -67,7 +67,8 @@
                   <input
                     class="control-input"
                     type="checkbox"
-                    name="Бассейн"
+                    name="инфраструктура"
+                    value="Бассейн"
                     checked
                   />Бассейн</label
                 >
@@ -77,7 +78,8 @@
                   <input
                     class="control-input"
                     type="checkbox"
-                    name="парковка"
+                    name="инфраструктура"
+                    value="парковка"
                     checked
                   />парковка</label
                 >
@@ -87,7 +89,8 @@
                   <input
                     class="control-input"
                     type="checkbox"
-                    name="wi-fi"
+                    name="инфраструктура"
+                    value="wi-fi"
                   />wi-fi</label
                 >
               </li>
@@ -102,7 +105,8 @@
                   <input
                     class="control-input"
                     type="radio"
-                    name="hotel"
+                    name="type"
+                    value="hotel"
                     checked
                   />Гостиница</label
                 >
@@ -112,7 +116,8 @@
                   <input
                     class="control-input"
                     type="radio"
-                    name="motel"
+                    name="type"
+                    value="motel"
                   />Mотель</label
                 >
               </li>
@@ -121,14 +126,38 @@
                   <input
                     class="control-input"
                     type="radio"
-                    name="apartments"
+                    name="type"
+                    value="apartments"
                   />Апартаменты</label
                 >
               </li>
             </ul>
           </fieldset>
 
-          <button class="button" type="submit">показать</button>
+          <fieldset class="catalog">
+            <legend class="catalog-sort">Стоимость</legend>
+            <label class="catalog-sort-item">
+              <input type="text" />
+              <span class="item">от</span>
+            </label>
+            <label class="catalog-sort-item">
+              <input type="text" />
+              <span class="item">до</span>
+            </label>
+            <div>
+              <button class="button" type="button">
+                <span class="visually-hiden">увеличить цену.</span>
+              </button>
+              <button class="button" type="button">
+                <span class="visually-hiden">уменьшить цену.</span>
+              </button>
+            </div>
+          </fieldset>
+
+          <div class="catalog-filter-controls">
+            <button class="button" type="submit">Применить</button>
+            <button class="button" type="reset">Сбросить</button>
+          </div>
         </form>
       </section>
       <section class="catalog-hotels">
@@ -240,7 +269,7 @@
             <a class="pagination-link" href="#">4</a>
           </li>
           <li class="pagination-item">
-            <span class="pagination-link">...</span>
+            <span class="pagination-link pagination-divider">...</span>
           </li>
           <li class="pagination-item">
             <a class="pagination-link" href="#">10</a>
@@ -286,7 +315,7 @@
         </li>
       </ul>
       <a class="footer-phone-link" href="tel:88128121212">+7(812)812-12-12</a>
-      <img class="logo-html" src=".html academy.svg" />
+      <img class="logo-html" src="#" alt="" />
 
       >
     </footer>
